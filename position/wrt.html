@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Asema's brand</title> 
+    <link rel="stylesheet" href ="css/style.css"> 
+</head> 
+<body> 
+    <nav class="nav1"> 
+        <ul> 
+            <li><a href="index.html" >Главная</a></li> 
+            <li><a href="about.html">О нас</a></li> 
+            <li><a href="recent.html">Недавний пошив</a></li> 
+            <li><a href="wrt.html">Отзывы</a></li> 
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="todo.html">TODO</a></li> 
+            <li><a href="person.html">Persons</a></li>
+            <button id="scrollToTop" style="display: none">⬆️</button>
+        </ul> 
+    </nav> 
+    <button id="openFeedBack">Оставить отзыв</button>
+    <div id="feedback" class ="feedback-form">
+        <h2>Свяжитесь с нами</h2> 
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="name">ИМЯ</label> 
+            <input type="text" id="name" name="name" placeholder="Укажите имя " required="">
+            <label for="phone">Номер телефона</label> 
+            <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" autocomplete="+996"> 
+            <label for="subject">Оставьте отзыв</label>
+            <select name="subject" id="subject">
+                <option value="web-development">Положительное</option> 
+                <option value="mobile-development">Отрицательное</option>
+                <option value="other">Другие</option>
+            </select>
+        </form>
+        <header class="header">
+            <h1>Отзывы наших клиентов</h1>
+        </header>
+    
+        <main class="reviews-container">
+            <div class="review">
+                <h2>Иван Иванов</h2>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Отличное качество! Очень доволен покупкой."</p>
+            </div>
+    
+            <div class="review">
+                <h2>Анна Смирнова</h2>
+                <p>⭐⭐⭐⭐</p>
+                <p>"Быстрая доставка и вежливый персонал."</p>
+            </div>
+    
+            <div class="review">
+                <h2>Кирилл Петров</h2>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Рекомендую всем! Лучшая компания на рынке."</p>
+            </div>
+    </div>
+    <div class="text-block-r">
+        <h1>Здесь вы найдете всю необходимую информацию о продукции, выпуска </h1>
+            </div>
+        <footer>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182.96092149177863!2d74.44969818004354!3d42.801566383065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ece7f9b665087%3A0xc81c0e2e3c4164dc!2z0YPQu9C40YbQsCDQodC10LnQtNC10YHQuNC80LHQsNC10LLQsCwg0JrRg9C90YLRg9GD!5e0!3m2!1sru!2skg!4v1669213099769!5m2!1sru!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+         <form>
+            <div class="input_form">
+                <p>Менеджеры кoмпании с радостью ответят на ваши вопросы и оформят заказ!</p>
+            </div>
+         </form>
+        </footer>
+    </body>
+</html>
